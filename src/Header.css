@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 60px;
+    object-fit: cover;
+}
+.head{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 2px solid #1700e4;
+    border-left: 2px solid #0048e4;
+    border-right: 2px solid #0048e4;
+    z-index: 10;
+}
+@media (min-width:1024px){
+    .head{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width:1440px){
+    .head{
+        width: 60%;
+    }
+}
+@media (min-width:2110px){
+    .head{
+        width: 40%;
+    }
+}

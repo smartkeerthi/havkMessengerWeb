@@ -1,0 +1,100 @@
+*{
+  margin: 0px;
+  padding: 0;
+}
+body{
+  overflow-x: hidden;
+}
+.App{
+  border-left: 2px solid #0048e4;
+  border-right: 2px solid #0048e4;
+}
+.typeInput{
+  border-top: 2px solid #0048e4;
+  border-left: 2px solid #0048e4;
+  border-right: 2px solid #0048e4;
+}
+@media (min-width:1024px){
+  .App{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .typeInput{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width:1440px){
+  .App{
+    width: 60%;
+  }
+  .typeInput{
+    width: 60%;
+  }
+}
+@media (min-width:2110px){
+  .App{
+    width: 40%;
+  }
+  .typeInput{
+    width: 40%;
+  }
+}
+.sendBtn{
+  width: 20px;
+  height: 40px;
+}
+.inputForm{
+  display: flex;
+  padding: 10px 30px;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  background-color: rgb(230, 230, 230);
+  border: 1px solid grey;
+  border-radius: 50px;
+}
+.App {
+  text-align: center;
+  padding: 20px;
+}
+.messageArea{
+  width: 100%;
+}
+.userCard{
+  background-color: #34a1eb;
+  padding: 0px 20px;
+  margin-left: auto;
+  text-align: right;
+  width: fit-content;
+  margin-right: 10px;
+  border-radius: 15px;
+}
+/* .userCard p,.otherCard p{
+  color: #fff;
+  opacity: 0.6;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.userCard h3 , .otherCard h3{
+  margin: 0px 10px;
+  text-transform: capitalize;
+  color: #eee;
+  font-weight: 500;
+} */
+.otherCard{
+  position: relative;
+  background-color: rgb(173, 173, 173);
+  margin-right: auto;
+  text-align: left;
+  width: fit-content;
+  padding: 0px 20px;
+  margin-left: 10px;
+  border-radius: 15px;
+}
